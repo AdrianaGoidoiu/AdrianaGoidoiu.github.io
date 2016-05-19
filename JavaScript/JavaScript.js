@@ -9,7 +9,7 @@ var main=function(){
    		var lastName=$("#LastName").val();
    		var email=$("#Email").val();
    		var message=$("#Message").val();
-   		if(firstName ===""){
+   		if(firstName === ""){
    			 $(".first_name_error").text("Please enter your first name.");
    		}
    		if(lastName === "") {
@@ -19,7 +19,7 @@ var main=function(){
       			$(".email_error").text("Please enter your email address.");   
     		}
     		if(message === ""){
-    			$(".message_error").text("Plese enter your message.");
+    			$(".message_error").text("Please enter your message.");
     		}
     		return false;
    	});
