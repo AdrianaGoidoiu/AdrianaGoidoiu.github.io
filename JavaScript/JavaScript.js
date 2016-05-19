@@ -5,12 +5,12 @@ var main=function(){
    	
    	});
    	$("form").submit(function(){
-   		var firstName=$("#FirstName").val();
-   		var lastName=$("#LastName").val();
-   		var email=$("#Email").val();
-   		var message=$("#Message").val();
-   		if($("#FirstName").val() === "Adriana"){
-   			 $(".form-control").html("Please enter your first name.");
+   		var firstName=$("#firstName").val();
+   		var lastName=$("#lastName").val();
+   		var email=$("#email").val();
+   		var message=$("#message").val();
+   		if(firstName === "Adriana"){
+   			 $(".form-control").text("Please enter your first name.");
    		}
    		if(lastName === "") {
       			$(".last_name_error").text("Please enter your last name.");      
@@ -19,7 +19,7 @@ var main=function(){
       			$(".email_error").text("Please enter your email address.");   
     		}
     		if(message === ""){
-    			$(".message_error").text($("#FirstName").val());
+    			$(".message_error").text(firstName);
     		}
     		return false;
    	});
