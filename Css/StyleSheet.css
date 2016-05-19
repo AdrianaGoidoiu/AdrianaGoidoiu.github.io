@@ -109,8 +109,8 @@ textarea{
 	resize:none;
 	height:40px;
 }
-.form-control{
-	height:40px;
+textarea.form-control {
+    height: 40px;
 }
 
 footer li{
