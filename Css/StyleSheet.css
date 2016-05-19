@@ -102,9 +102,8 @@ font-size: 2.5em;
 .last_name_error,
 .email_error,
 .message_error{
-  color: #dd4b39;
+  color: red;
   font-weight: 600;
-}
 }
 
 footer li{
