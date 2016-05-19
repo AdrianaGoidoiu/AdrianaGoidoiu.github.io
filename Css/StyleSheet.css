@@ -105,7 +105,7 @@ font-size: 2.5em;
   color: red;
   font-weight: 600;
 }
-textarea .form-control{
+textarea{
 	resize:none;
 	height:40px;
 }
