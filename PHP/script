@@ -1,0 +1,8 @@
+<?php
+$to="goidoiuadriana@gmail.com";
+$subject="Message from my webPage";
+$email=$_REQUEST['email'];
+$message=$REQUEST['message'];
+$headers="From:$email";
+$sent=mail($to, $subject, $message, $headers);
+?>
