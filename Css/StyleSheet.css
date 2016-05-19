@@ -98,7 +98,10 @@ font-size: 2.5em;
  color:white; 
 
 }
-.first_name_error{
+.first_name_error,
+.last_name_error,
+.email_error,
+.message_error{
   color: red;
   font-weight: 600;
 }
