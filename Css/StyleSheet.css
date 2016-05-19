@@ -90,12 +90,12 @@ font-size: 2.5em;
 }
 
 .contact .btn{
- background-color:#2A6251;
-  padding:5px 10px;
+	 background-color:#2A6251;
+	 padding:5px 10px;
 
 }
 .contact .btn:hover{
- color:white; 
+	 color:white; 
 
 }
 
@@ -104,11 +104,11 @@ textarea{
 	height:40px;
 }
 textarea.form-control {
-	font-size:20px;
-    height: 40px;
+	font-size:30px;
+	height: 40px;
 }
 textarea.message_error{
- height:150px;
+	 height:150px;
 }
 
 footer li{
