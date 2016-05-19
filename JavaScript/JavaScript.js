@@ -19,7 +19,7 @@ var main=function(){
     			$(".email_error").text("Please enter your email address");
     		}
     		if(message === ""){
-    			$(".message_error").text("There is no point to send an email without a message");
+    			$(".message_error").text("There is no point to send me an email without a message");
     		}
     		return false;
    	});
