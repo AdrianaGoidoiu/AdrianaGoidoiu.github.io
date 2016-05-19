@@ -2,7 +2,13 @@
 $to="goidoiuadriana@gmail.com";
 $subject="Message from my webPage";
 $email=$_REQUEST['email'];
-$message=$REQUEST['message'];
+$message=$_REQUEST['message'];
 $headers="From:$email";
 $sent=mail($to, $subject, $message, $headers);
+if($sent)
+{print('<p>"Thank you"</p>');
+}
+else {
+  print('<p>"error"</p>');
+}
 ?>
