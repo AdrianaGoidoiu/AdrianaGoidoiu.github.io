@@ -10,13 +10,13 @@ var main=function(){
    		var email=$("#email").val();
    		var message=$("#message").val();
    		if(firstName == ""){
-    			$(".first_name_error").text("Please enter your message here.");
+    			$(".first_name_error").text("Please enter your first name here.");
     		}
    		if(lastName == ""){
-    			$(".last_name_error").text("Please enter your message here.");
+    			$(".last_name_error").text("Please enter your last name here.");
     		}
     		if(email == ""){
-    			$(".email_error").text("Please enter your message here.");
+    			$(".email_error").text("Please enter your email address.");
     		}
     		if(message === ""){
     			$(".message_error").text("Please enter your message here.");
