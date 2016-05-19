@@ -10,16 +10,16 @@ var main=function(){
    		var email=$("#email").val();
    		var message=$("#message").val();
    		if(firstName == ""){
-    			$(".first_name_error").text("Please enter your first name here.");
+    			$(".first_name_error").text("I would like to know your first name");
     		}
    		if(lastName == ""){
-    			$(".last_name_error").text("Please enter your last name here.");
+    			$(".last_name_error").text("I would like to know your last name");
     		}
     		if(email == ""){
-    			$(".email_error").text("Please enter your email address.");
+    			$(".email_error").text("Please enter your email address");
     		}
     		if(message === ""){
-    			$(".message_error").text("Please enter your message here.");
+    			$(".message_error").text("There is no point to send an email without a message");
     		}
     		return false;
    	});
