@@ -9,8 +9,8 @@ var main=function(){
    		var lastName=$("#LastName").val();
    		var email=$("#Email").val();
    		var message=$("#Message").val();
-   		if(firstName === ""){
-   			 $(".first_name_error").text("Please enter your first name.");
+   		if($("#FirstName").val() === ""){
+   			 $(".form-control").text("Please enter your first name.");
    		}
    		if(lastName === "") {
       			$(".last_name_error").text("Please enter your last name.");      
