@@ -17,4 +17,13 @@ EOD;
 $headers="From $email \r \n";
 $headers .="Content-type: text/html\r\n";
 $success=mail($myEmail, $emailSubject, $body, $headers);
+$theResult = <<<EOD
+<html>
+<head></head>
+<body>
+<h1>AI REUSIT!</h1>
+</body>
+</html>
+EOD;
+echo "$theResults";
 ?>
