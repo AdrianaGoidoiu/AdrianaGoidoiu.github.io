@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+header{
+  background-color:rgba(0,0,0,0.9);
+  color:white;
+  position:absolute;
+  width: 100%;
+  position:fixed;
+  margin-top:10px;
+  border-radius: 20px;
+  z-index:1030;
+}
+header .logo{
+	height:4.5em;
+	width:5.5em;
+	padding:0.1px;
+	margin-top: 2px;
+}
+
+.menu li {
+	font-size: 20px;
+	align:right;
+	padding: 1em;
+	height: 2.5em;
+	width: 7.5em;
+    display: inline-block;
+}
+.menu a{
+	color:white;
+}
+.menu a:hover{
+   -webkit-transition:color 1s;
+   color:red;
+   text-decoration: none;
+}
+
+#home{
+	background-image: url("../Images/1.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 600px;
+	color:red;
+	font-style: italic;
+	margin-top: 0px;
+	  z-index: 10;
+
+}
+
+#home .quote{
+margin-top:8em;
+font-size: 2.5em;
+}
+#home .author{
+	font-size: 1.55em;
+	
+}
+.banner{
+  background-color:rgb(0,0,0); 
+  color:white;
+  text-align:center;
+}
+.portfolio{
+	background-image: url("../Images/7.jpg");
+	background-attachment: fixed;
+	min-height: 600px;
+	color:white;
+}
+.portfolio img{
+	 margin-bottom:50px; 
+}
+.about{
+	min-height:600px; 
+}
+
+.container {
+  max-width: 1024px;
+}
+
+.contact{
+  background-image: url('../Images/5.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.contact .container{
+}
+
+.contact .btn{
+ background-color:#2A6251;
+  padding:5px 10px;
+
+}
+.contact .btn:hover{
+ color:white; 
+
+}
+
+footer li{
+	display: inline-block;
+}
