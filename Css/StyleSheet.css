@@ -105,6 +105,9 @@ font-size: 2.5em;
   color: red;
   font-weight: 600;
 }
+textarea{
+	resize:none;
+}
 
 footer li{
 	display: inline-block;
