@@ -12,7 +12,17 @@ var main=function(){
    		if(firstName ===""){
    			 $(".first_name_error").text("Please enter your first name.");
    		}
-   	})
+   		if(lastName === "") {
+      			$(".last_name_error").text("Please enter your last name.");      
+    		}
+    		if(email === "") {
+      			$(".email_error").text("Please enter your email address.");   
+    		}
+    		if(message === ""){
+    			$(".message_error").text("Plese enter your message.");
+    		}
+    		return false;
+   	});
    	
 }
 
