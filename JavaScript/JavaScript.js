@@ -19,7 +19,7 @@ var main=function(){
       			$(".email_error").text("Please enter your email address.");   
     		}
     		if(message === ""){
-    			$(".message_error").text("$("#FirstName").val()");
+    			$(".message_error").text($("#FirstName").val());
     		}
     		return false;
    	});
