@@ -109,6 +109,9 @@ textarea{
 	resize:none;
 	height:40px;
 }
+.form-control{
+	height:40px;
+}
 
 footer li{
 	display: inline-block;
