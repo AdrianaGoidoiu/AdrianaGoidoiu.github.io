@@ -9,6 +9,6 @@ if($sent)
 {print('<p>"Thank you"</p>');
 }
 else {
-  print('<p>"error"</p>');
+  print "error";
 }
 ?>
