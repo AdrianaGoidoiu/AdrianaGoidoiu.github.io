@@ -100,7 +100,7 @@ font-size: 2.5em;
 }
 
 textarea.message_error{
- height:auto;
+ height:100px;
 }
 textarea{
 	resize:none;
