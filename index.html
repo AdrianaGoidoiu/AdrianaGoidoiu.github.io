@@ -80,24 +80,24 @@
 <section class="contact">
 <div class="container">
 <hr>
-<form role="form" method="POST" action="PHP/script.php">
+<form role="form" method="POST">
          <div class="form-group">
     <label for="FirstName">First Name</label>
-    <textarea type="text" class="form-control first_name_error" name="firstName" id="firstName" row="1"></textarea>
+    <input type="text" class="form-control first_name_error" name="firstName" id="firstName" autocomplete="off">
   </div>
   <div class="form-group">
     <label for="LastName">Last Name</label>
-    <textarea type="text" class="form-control last_name_error" name="lastName" id="lastName" row="1"></textarea>
+    <input type="text" class="form-control last_name_error" name="lastName" id="lastName" autocomplete="off">
   </div>
          <div class="form-group">
     <label for="Email">Email</label>
-    <textarea type="email" class="form-control email_error" name="email" id="email" row="1"></textarea>
+    <input type="email" class="form-control email_error" name="email" id="email" autocomplete="off">
   </div>
   <div class="form-group">
     <label for="Message">Message</label>
     <textarea class="form-control message_error" name="message" id="message" cols="30" rows="7"></textarea>
   </div><br>
-        <input type="submit" class="btn" value="Send"><br><br><br>
+        <button type="submit" class="btn"> Send</button><br><br><br>
      </form>
         <hr>
 </div>
@@ -106,7 +106,7 @@
 	      <div class="container">
         <ul>
         <li>
-          Copyright Â© Adriana Goidoiu 2015. All Rights Reserved</li>
+          Copyright © Adriana Goidoiu 2015. All Rights Reserved</li>
       </ul>
       </div>
 </footer>
